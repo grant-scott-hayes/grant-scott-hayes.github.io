@@ -27,15 +27,17 @@ p {
   font-size: 20px;
 }
 
+img {
+  max-width: 100%
+  height: auto
+}
+
 /*class styling*/
 .center {
   text-align: center;
 }
 
-.img-centred-medium {
-  
 
-}
 
 /*id styling*/
 #footer {
