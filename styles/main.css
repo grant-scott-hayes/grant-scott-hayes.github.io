@@ -3,7 +3,7 @@
 
 /*element styling*/
 body {
-  background-color: lightblue;
+  background-color: lightgray;
   font-family: 'Courier Prime', Courier, monospace;
 
   padding: 10px 10px 10px 10px;
@@ -29,6 +29,7 @@ h3 {
 p {
   /*font-family: verdana;*/
   font-size: 20px;
+  color: white;
 }
 
 img {
@@ -84,3 +85,6 @@ li a {
   text-align: center;
 }
 
+#blog-list {
+  color: white;
+}
