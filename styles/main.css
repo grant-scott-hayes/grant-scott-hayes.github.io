@@ -38,18 +38,21 @@ img {
   height: auto;
 }
 
-
-
-
-nav ul {
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: lightgray;
+}
+
+nav ul {
+  display: block
 }
 
 nav li {
   float: left;
+  list-style-type: none;
 }
 
 nav li a {
@@ -58,6 +61,10 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: lightslategray;
 }
 
 /*class styling*/
@@ -85,13 +92,13 @@ nav li a {
 
 .cont-padding {
   width: 50%;
-  height: 200px;
+  height: auto;
   overflow: hidden;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
 }
 
 .cont-padding img{
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -109,7 +116,10 @@ nav li a {
   color: white;
 }
 
-
+#wiki-links {
+  color: white;
+  text-align: left;
+}
 
 /*phone*/
 @media (min-width: 320px)
