@@ -6,7 +6,8 @@ body {
   background-color: lightblue;
   font-family: 'Courier Prime', Courier, monospace;
 
-  padding: 5px 50px 50px 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 50px 100px 100px 100px; 
 
 }
 
@@ -36,11 +37,6 @@ img {
   
 }
 
-/*class styling*/
-.center {
-  text-align: center;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -60,8 +56,31 @@ li a {
   text-decoration: none;
 }
 
+/*class styling*/
+.center {
+  text-align: center;
+}
+
+.small-bottom-margin {
+  margin-bottom: 2px; 
+}
+
+.small-top-margin {
+  margin-bottom: 2px; 
+}
+
+.bg-color-black {
+
+  background-color: black;
+}
+
+.bg-color-white {
+  background-color: white;
+  
+}
 
 /*id styling*/
 #footer {
   text-align: center;
 }
+
