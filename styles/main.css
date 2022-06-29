@@ -37,6 +37,31 @@ img {
   text-align: center;
 }
 
+.nav-centred-flat {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 10px;
+}
+
+.nobullets-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 
 /*id styling*/
 #footer {
