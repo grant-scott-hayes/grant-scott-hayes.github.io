@@ -90,6 +90,13 @@ li a {
   
 }
 
+.cont-padding {
+
+  padding: 10px 10px 10px 10px;
+
+}
+
+
 /*id styling*/
 #footer {
   text-align: center;
@@ -99,6 +106,8 @@ li a {
 #blog-list {
   color: white;
 }
+
+
 
 /*phone*/
 @media (max-width: 320px)
