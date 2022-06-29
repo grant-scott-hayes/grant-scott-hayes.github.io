@@ -110,21 +110,21 @@ li a {
 
 
 /*phone*/
-@media (max-width: 320px)
+@media (min-width: 320px)
 {
 
 
 }
 
 /*tablet*/
-@media (max-width: 768px)
+@media (min-width: 768px)
 {
 
 
 }
 
 /*screen 1200+*/
-@media (max-width: 320px)
+@media (min-width: 320px)
 {
 
 
