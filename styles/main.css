@@ -120,11 +120,10 @@ img {
 
 .indent-left{
   text-indent: 5px;
-
 }
 
 .blog-list {
-
+  background-color: lightgray;
   margin: auto;
   padding: auto;
 
@@ -145,7 +144,6 @@ img {
 }
 
 #header {
-
   background-color: black;
 }
 
