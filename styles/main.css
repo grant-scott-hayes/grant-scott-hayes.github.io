@@ -167,18 +167,15 @@ img {
     margin-bottom: 0px; 
   }
   
-  .small-top-margin 0px; 
-  }
-  
+  .small-top-margin {
+    margin-top: 0px;
+  } 
+
   .cont-padding {
  
     padding: 5px 5px 5px 5px;
   }
   
-  
-  
-
- 
   /*id styling*/
   #footer {
 
@@ -189,6 +186,10 @@ img {
 
     background-color: rgb(68, 164, 0);
   }
+
+  }
+  
+
 
 /*tablet sizing*/
 @media only screen only screen and (min-width:321px) and (max-width:768px)
