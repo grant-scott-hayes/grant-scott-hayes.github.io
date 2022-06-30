@@ -133,6 +133,10 @@ img {
   text-align: right;
 }
 
+#header {
+
+  background-color: black;
+}
 
 /*phone sizing*/
 @media only screen and (max-width: 320px)
