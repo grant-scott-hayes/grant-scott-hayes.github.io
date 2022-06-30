@@ -192,7 +192,7 @@ img {
 
 
 /*tablet sizing*/
-@media only screen only screen and (min-width:321px) and (max-width:768px)
+@media screen only and (min-width:321px) and (max-width:768px)
 {
   body {
     
@@ -235,7 +235,7 @@ img {
   
   #header {
 
-    background-color:aquamarine ;
+    background-color: aquamarine ;
   }
 
 }
