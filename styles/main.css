@@ -171,6 +171,11 @@ img {
     padding: 5px 5px 5px 5px;
   }
   
+#header {
+
+  background-color: chartreuse;
+}
+
  
   /*id styling*/
   #footer {
@@ -183,7 +188,7 @@ img {
 @media only screen only screen and (min-width:321px) and (max-width:768px)
 {
   body {
-
+    
     padding: auto;
     margin: auto; 
   
@@ -214,6 +219,12 @@ img {
     padding: 10px 10px 10px 10px;
   }
    
+  #header {
+
+    background-color: teal;
+  }
+
+
   /*id styling*/
   #footer {
 
