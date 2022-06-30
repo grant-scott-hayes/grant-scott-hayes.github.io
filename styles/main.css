@@ -4,6 +4,7 @@
 body {
   background-color: black;
   border-color: lightgray;
+  border-width: 10px;
   font-family: 'Courier Prime', Courier, monospace;
 
   padding: 10px 10px 10px 10px;
@@ -63,11 +64,6 @@ img {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.nav li a:hover {
-  background-color: lightslategray;
-}
-
 
 .center {
   text-align: center;
