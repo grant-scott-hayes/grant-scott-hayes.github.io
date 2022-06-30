@@ -118,6 +118,11 @@ img {
   margin-right: auto;
 }
 
+.indent-left{
+  text-indent: 5px;
+
+}
+
 .blog-list {
 
   margin: auto;
