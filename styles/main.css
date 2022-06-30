@@ -192,7 +192,7 @@ img {
 
 
 /*tablet sizing*/
-@media screen only and (max-width:768px)
+@media screen only and (min-width: 321(max-width:768px)
 {
   body {
     
