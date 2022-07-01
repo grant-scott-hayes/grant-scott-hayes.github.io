@@ -32,10 +32,9 @@
     <!--main content container-->
     
     <div id="blog-content" class="indent-left">
-      <h3>...the differences between relative, absolute, and fixed positioning (and the two others).</h3>
+      <h2>...the differences between relative, absolute, and fixed positioning (and the two others).</h2>
 
-    
-
+      <a href="../images/queue.jpg" alt="blog image"></a>
 
       
       <h4>introduction to the postion types</h4>
@@ -44,29 +43,29 @@
       page for the viewer.</p>
       
       <p>Documents in HTML display in the order of the <span class="terminology">document flow</span>. The <span class="terminology">document flow</span> in HTML displays items in order, one after the other. 
-        <span class="terminology">Block</span> items, stack and display on a new line whereas <span class="terminology">inline items</span>don't get a new line. By default items such as div, paragraph, and lists, 
-        are block items (on a new line) whereas, images, links, and inputs are inline items (don't get a new line). You can force these defaults to change.</p>
+        <span class="terminology">Block</span> items, stack and display on a new line whereas <span class="terminology">inline items</span> don't get a new line. By default items such as div, paragraph, and lists, 
+        are block items (on a new line) whereas, images, links, and inputs are inline items (and don't get a new line). You can force these defaults to change.</p>
 
       <p>Positioning is controlled by setting the values of the keywords: <span class="terminology">top, bottom, left and right</span>. The keywords mean different things depending on 
         which type of position you are using (relative, absolute, etc.). For example, <span class="terminology">top</span> measures something different using <span class="terminology">absolute</span> positions compared to    
         <span class="terminology">relative</span> positions.</p>
 
-      <p>The keywords <span class="terminology">top, bottom, left and right</span> refer to the distances or offsetting values (whether distances from itself or a conatining item). 
+      <p>The keywords <span class="terminology">top, bottom, left and right</span> refer to the distances or offsetting values (whether distances from itself or from the edges of the containing item). 
       It is easiest to think of the containing item like a box. Using positive values of the keywords will move the item inwards (or toward the centre of the box) and negative values will 
       offset the item outwards (away from the centre of the container).</p>
       
 
       <h4>position: static</h4>
       <p>This is the default value for items on a webpage and not generally used except to force the default position on an item. </p>
-      <p>The behaviour of static items (all items, by default) in the document flow is to display the item in the order they appear in the <span class="terminology">document flow</span>. </p>
-      <p>It is effectively an unpositioned state and top, bottom, left, and right values aren'y useful in this context.</p>
+      <p>The behaviour of static items (all items, by default) in the <span class="terminology">document flow</span>  is to display the item in the order they appear in the <span class="terminology">document flow</span>. </p>
+      <p>It is effectively an unpositioned state and <span class="terminology">top, bottom, left, and right </span> values cant be set in that context.</p>
       <p>Example</p>
       <img src="..\images\Static.jpg" alt="static position example"> 
 
       <h4>position: relative</h4>
-      <p>A position set to relative is used to display an item in a position that is <span class="terminology">offset</span> to it's normal default (or static) position. That means
+      <p>A position set to <span class="terminology">relative</span> is used to display an item in a position that is <span class="terminology">offset</span> to it's normal default (or static) position. That means
         <span class="terminology">relative to ITSELF</span> and not other items; a common misconception.</p>
-      <p>Within the document flow, the relative position simply displays the item in a different spot but other items won't shuffle around to fill it's hole in the document. This means 
+      <p>Within the <span class="terminology">document flow</span> , the relative position simply displays the item in a different spot but other items won't shuffle around to fill it's hole in the document. This means 
         the document still recognises the space where the original item was on the page. Imagine someone holding your place in the supermarket queue by pretending you are still there.</p>
       <p>If a parent item on a web page has a child item positioned within it, then the relative position has to set in the parent item for the child positioning to work.</p>
       <p>Example</p>
@@ -101,14 +100,10 @@
       <img src="..\images\sticky.jpg" alt="sticky position example"> 
 
       <h4>summary</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>The positioning on webpages is controlled using the the position method. Items can be made to appear in deifferent palces on a webpage and the positions are determined by reference
+        to itself, it's container, and/or the viewing window. Depending on the method used, the position of other elements on the web page may change.</p>
       <p>Watch <a href="https://www.youtube.com/watch?v=UO8ed-JB4So" target="_blank">this</a> YouTube video to deepen your understanding on this subject.</p>
-      
-      
-
-
-
-
+            
       <p>Click <a href="../blog/core-post.html">here</a> to go to my list of blogs.</p>
 
     </div>
