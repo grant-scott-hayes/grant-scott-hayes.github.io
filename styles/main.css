@@ -147,6 +147,11 @@ img {
   background-color: black;
 }
 
+.terminology {
+  font-style: italic;
+
+}
+
 /*phone sizing*/
 @media only screen and (max-width: 320px)
 {

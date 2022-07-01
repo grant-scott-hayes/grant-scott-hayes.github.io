@@ -35,28 +35,52 @@
       <h3>...the differences between relative, absolute, and fixed positioning (and the two others).</h3>
       
       <h4>introduction to the postion types</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>Every part (element) on a webpage has an invisible container (or box) that you can position on the page using the <span class="terminology"> position </span> property.
+      There are five main position types: static, relative, absolute, fixed, and sticky. Each type is a different method for the web programmer to place items on a page for the viewers.</p>
+      
+      <p>Documents in HTML display in the order of the <span class="terminology">document flow</span>. The document flow in HTML displays items in order, one after the other. Some 
+        items, <span class="terminology">block</span> items, display on a new line whereas other items, <span class="terminology">inline items</span>, will display on the 
+      same line as other items. That display property can be changed but by default items such as div, paragraph, and lists, are block items (on a new line) whereas, images, links, and inputs are 
+      inline items (don't get a new line).</p>
+
+      <p>Positioning is controlled by setting the values of the keywords: top, bottom, left and right. Each items has these keywords but they mean different things depending on 
+        which type of position you have declared the item to use. For example top measures something different using <span class="terminology">absolute</span> compared to    
+        <span class="terminology">relative</span> positioning.</p>
 
       <h4>position: static</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      
+      <p>This is the default value for items on a webpage and not generally used except to force the default position on an item. </p>
+      <p>The behaviour of static items (all items, by default) in the document flow is to display the item in the order they appear in the <span class="terminology">document flow</span>. </p>
+      <p>Example</p>
+      <img src="#" alt="static position example"> 
+
       <h4>position: relative</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>A position set to relative is used to display an item in a position that is <span class="terminology">offset</span> to it's normal default (or static) position. That means
+        <span class="terminology">relative to ITSELF</span> and not other items; a common misconception.</p>
+      <p>Within the document flow, the relative position simply displays the item in a different spot but other items won't shuffle around to fill it's hole in the document. This means 
+        the document still recognises the space where the original item was on the page (like an invisible block that the next item still respects in terms of size, shape and location). 
+      </p>
+      <p>If a parent item on a web page has a child item positioned within it, then the relative position has to set in the parent item for the child positioning to work.</p>
+      <p>Example</p>
+      <img src="#" alt="relative position example"> 
+
       
       <h4>position: absolute</h4>
+      <p>The absolute postion allows an item to be placed anywhere you want on a web page. The absolute position refers to the placement of the item within a parent element.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>Example</p>
+      <img src="#" alt="absolute position example"> 
 
       <h4>position: fixed</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>Example</p>
+      <img src="#" alt="fixed position example"> 
 
       <h4>position: sticky</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>Example</p>
+      <img src="#" alt="sticky position example"> 
 
       <h4>summary</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
