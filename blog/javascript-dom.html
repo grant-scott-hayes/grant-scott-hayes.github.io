@@ -70,15 +70,59 @@
 
     <h1>The DOM...the what and How to DOM?</h1>
     <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
-    <p></p>
+    <p>The DOM (Document Object Model) is Javascripts representation of the structure of a website for the purposes of accessing items for use in Javascript code.</p>
+    <p>The DOM can be visualised as a family tree or organisational chart that holds all the parts of a web page in a heirachical structure with parents up the top and children branching off parents underneath.</p>
+
+    <img src="/images/DOM-tree.jpg">source: www.kirupa.com
+
+    <p>The elements in the tree are called <span class="terminology">nodes</span>. Each item in an HTML document is on the tree somewhere and is a child node of a parent node higher up the tree. You can 
+    find and access all the information about an item in the tree and therefore can makde changes to them once found. Finding an item can be done in several ways but in short you can either refer to an 
+    item by its id name or by reference to it's place in a group of items that are referred to by their grouping (maybe they belong to the same class, or are all children of the same node, or are an element in the of the
+    same type like 'h1' headings, or in the 'divs' tag. Some examples of referencing items to then access details, change them, or handle them in code are:</p>
+
+    <ul>
+      <li>document.querySelector("#hello") : this would refer to a specific single element with id="hello" on the HTML document</li>
+      <li>document.querySelector(".pictureContainer") : this would refer to the first element using the class="pictureContainer" on the HTML document</li>
+      <li>----</li>
+      <li>document.querySelectorAll(".pictureCOntainer") : this would bring backa nodelist of all the elements using the class="pictureContainer" on the HTML document</li>
+    </ul>
+
+    <p>Once you've found and returned a nodes or nodes, you can then go about modifying them by accessing the methods, and properties of the node using Javascript. It's a matter 
+      of learning what tools to use to change the values of the nodes. Common modifications might be updating the text displayed on a page based on a data source, or perhaps
+      user input or interactions with the page, or changes to the CSS to restyle element sof the page whether simple colour schemes or more complex attributes.   
+    </p>
+
+    <p>One of the great things about JS is that it can be directed to modify anything in the DOM. This includses adding an removing elements of a webpage, adding, changing, and removing attributes of 
+      elements. This includes CSS classes an element refers to to and uses, and more. The CSS classes themselves can be added, removed, and modified by JavaScript so the possibilities are vast.   
+    </p>
 
     <h1>Accessing Arrays Vs Objects...the what and how to DOM?</h1>
     <h2>Explain the difference between accessing data from arrays and objects.</h2>
-    <p></p>
+    <p>An array is a basically an indexed set of conatiners for data or objects that can be referred to by the name of the array. On the simple end, the containers may hold single numbers or text values, or on 
+      the more complex side, each container may refer to whole objects or indeed a whole array (an array of arrays!). To access individual items in the array you can refer to the position the container occupies in the 
+    array. Items in an array are addedd to sequential positions starting from zero upwards. So the first item is arryName[0], the second is arryName[1], and so on. Each addition adds to that index.</p>
 
-    <h1>Accessing Arrays Vs Objects...the what and how to DOM?</h1>
-    <h2>Explain what functions are and why they are helpful.</h2>
-    <p></p>
+    <p>An array is created by delaring it in the code using the name of the array followed by square brackets eg. let thisArray = []. Arrays can be looped through to perform actions on the containers whether that's retrieving data from the array, adding to it, doing calculations, moving items around, and so on. It
+      is particularily useful because the index number used to access the array data is numeric and easy to increment and decrement with counting variables comminly used in control loops. 
+    </p>
+
+    <p>On the other hand Objects are complex structures that can be programmed to have properties and methods data. This means that they can be constructed to hold data and perform functions. 
+      To code up an object data properties can be created, as well as function that perform tasks when called.
+    </p>
+
+    <p>Objects can be referenced by name and passed around in code using the name of the object. To access the properties and methods of objects you can use the dot approach eg. objectName.lastName or using
+      bracket notation like ojbectName["lastName"].
+    </p>
+
+    <h1>Explain what functions are and why they are helpful.</h1>
+    <p>Functions are reusable snippets of code that can be referenced by name within Javascript. They can be provided data to use within the code snippet and return a value back to the calling code for 
+      assignment to variables if reuired. They are considered reusable as they can be called at any time to perform a repeatable task used by different parts of the code without having to repeat the 
+      code at the point it is required. Examples may be to check if a user is logged in. A small function may be used to check the status of a user login and return a true/false value back to the 
+      calling code.
+    </p>
+
+    <p>By analogy, a function is a bit like having an endless supply of pre-prepared meals in the freezer. Instead of cooking up the meal each time from scratch, you simply put it in the microwave and out comes meal. 
+    </p>
 
     </body>
 </html>
