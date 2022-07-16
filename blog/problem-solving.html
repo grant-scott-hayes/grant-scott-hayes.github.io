@@ -16,30 +16,46 @@
       
       <h3>What was the problem?</h3>
       <p>
-
-
-
+        As part of the learning excercies, DevAcademy cohorts are asked to complete a Javascript coding challenge called SuperFizzBUzz.
+        it's a relatively simple problem testing the use of code structures to make logical decisions based on data. The aim is to 
+        give a program numbers and it will return a "Fizz" on a number that is a multiple of 3, "Buzz" on a number that is a multiple of 5, 
+        and "FizzBuzz" is the number is a multiple of both. <br> I chose to use a code structure called Switch which will test the number
+        against a set of different cases and action the ones that match.<br> I thought I was being clever because you can omit breaks to
+        allow the code to check out the next case even though another case match may have been found. That would have been fine but I did not
+        know that the whole structure only evaluates the switch statement and not each case statement. So using an expression that 
+        asks the switch structure to perform a secondary operation on each case won't work for example, case (expr % 3 == 0) is ignored and
+        will never match the expr value which was a number in this case. 
       </p> 
+
+      <img src="/images/JS Wrong Switch Useage.jpg" alt="Example of wrong text.">
+
       
       <h3>what problem-solving techniques did I use?</h3>
       <p>
+        To solve this problem I used console.logging inside each case to test if the code was matching the expr to the cases or not. When
+        I used this, the console log output ws always empty so I was able to tell there was a problem with my structure. I then used Google 
+        to check my syntax and work out what was going on. At that point I did not see the issue. The next step was to check if my peers
+        had similar issues via Discord (our way of chatting to other cohorts online). From a couple of postings there, I realised that folk had been using if...else 
+        structures to complete the excercise. I did a secondary Google search and found an entry on the forum called StackOverflow.com. Responses
+        there to a similar problem showed me where I was going wrong (see picture). From there I scrapped the structure and changed to 
+        If...Else statements and that worked perfectly. 
 
-
-      
+        <img src="/images/Forum result.jpg" alt="Example of problem solving forum.">
+        
       </p> 
       
       <h3>how did I feel throughout the process?</h3>
       <p>
-
-
-      
+        Frustrated that the structure did not operate as I expected as it seemed to be correct in general terms. I also felt time pressures as I wanted 
+        to complete the excercise in good time and within my timebox. Relieved to have discovered the issue and that it was a matter of chosing a 
+        better tool for the job.
       </p> 
       
       <h3>What did I learn?</h3>
       <p>
-
-
-      
+        I learned that Javascript evaluates once and the cases don't evaluate expressions, as far as I know. I also learned that 
+        Google can provide solutions very quickly although sometimes the results can be difficult to interpret. Additionally, there 
+        many ways to achieve a result.
       </p> 
       
 
